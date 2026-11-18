@@ -6,16 +6,15 @@
     margin: 0;
     background: #ffffff;
     color: #000000;
-    
     align-items: center;
-
-
     }
+
     header {
         background: #000000;
         color: #ffffff;
         padding: 10px 20px;
     }
+    
     nav a {
         color: #ffffff;
         text-decoration: none;
@@ -25,11 +24,11 @@
         border-radius: 4px;
 
     }
+
     nav a:hover {
         border: 1px solid #ffffff;
         border-radius: 4px;
     }
-
 
     nav a.active {
         background: #ffffff;
@@ -50,6 +49,21 @@
         padding: 20px;
     }
 
+    /* styles for table */
+      
+    table {
+        border-collapse: collapse;
+    }
+
+    th {
+        background: black;
+        color: #fff;
+        border-radius: 4px;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
 
 
     
